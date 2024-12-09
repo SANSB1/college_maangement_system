@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+  background-image: url("project_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.float-right {
+  float: right;
+}
+
+.content {
+  text-align: right;
+  margin-right: 50px;
+}
+
+/* Header Styles */
+header {
+  background-color: #a79277;
+  color: black;
+  padding: 10px 0;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.menu .signup {
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Main Section */
+main {
+  flex: 1;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #a79277;
+  color: black;
+  padding: 10px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-item {
+  margin: 0 15px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
